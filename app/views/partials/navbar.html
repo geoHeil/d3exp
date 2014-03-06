@@ -1,6 +1,7 @@
 <div class="header" ng-controller="NavbarCtrl">
   <ul class="nav nav-pills pull-right">
-    <li ng-repeat="item in menu" ng-class="{active: isActive(item.link)}">
+
+    <li ng-repeat="item in menu" ng-class="{active: $first, item: true}">
         <a ng-href="{{item.link}}">{{item.title}}</a>
     </li>
   </ul>

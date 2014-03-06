@@ -5,9 +5,18 @@ angular.module('d3xmpApp')
         $scope.menu = [
             {
                 'title': 'Home',
-                'd3xmp': 'd3 examples',
-                'salsa': 'salsaViva',
-                'contact': 'Contact',
+                'link': '/'
+            },
+            {
+                'title': 'd3 experiment',
+                'link': '/'
+            },
+            {
+                'title': 'Salsa Viva',
+                'link': '/'
+            },
+            {
+                'title': 'Contact',
                 'link': '/'
             }
         ];
